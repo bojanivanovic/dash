@@ -9,6 +9,7 @@
     </head>
     <body>
         <div class="wrapper">
+            <!-- SIDEBAR -->
             <div id="sidebar" class="sidebar">
                 <div class="sidebar-content">
 
@@ -16,26 +17,33 @@
                         <div class="page-title">
                             <h1>Dash</h1>
                         </div>
-                        <div class="menu-button">
-                            <h1>X</h1>
+                    </div>
+
+                    <div id="sidebar-menu" class="sidebar-menu">
+                        <div class="sidebar-menu-items">
+                            <div class="nav-welcome-message">welcome, Bojan</div>
+                            <div class="nav-profile">
+                                <img src="res/profile.jpg" class="profile-image-small">
+                            </div>
+                            <div class="nav-home">
+                                <img src="res/home-svgrepo-com.svg" class="nav-menu-button">
+                            </div>
+                            <div class="nav-boards">
+                                <img src="res/board-svgrepo-com.svg" class="nav-menu-button">
+                            </div>
+                            <div class="nav-settings">
+                                <img src="res/settings-svgrepo-com.svg" class="nav-menu-button">
+                            </div>
                         </div>
-                    </div>
-
-                    <div id="sidebar-menu">
-                        <ul class="sidebar-menu-items">
-                            <li><a href="/">Home</a></li>
-                            <li>Boards</li>
-                            <li>Setting</li>
-                        </ul>
-                    </div>
-
-                    <div class="sidebar-widget-list-wrapper">
-
                     </div>
                 </div>
             </div>
+            <!-- SIDEBAR -->
 
+            <!-- WIDGET PANE -->
             <div class="widget-wrapper">
+                <div class="widget-pane-sidestrip">
+                </div>
                 <div class="widget widget-1">
                     <div class="widget-title">
                         <h3><span>Date & time</span></h3>
@@ -55,6 +63,7 @@
                     </div>
                 </div>
             </div>
+            <!-- WIDGET PANE -->
         </div>
     </body>
     <script src="script/main.js"></script>

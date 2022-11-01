@@ -6,38 +6,34 @@ body {
 .wrapper {
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 /* SIDEBAR */
 
 .sidebar {
-    max-width: 25%;
-    min-width: 20%;
-    height: 100%;
-    margin: 0 1rem 0 0;
-    padding: 0 1.5rem 0 0.7rem;
+    height: 5rem;
+    width: 100%;
     color: white;
-    background-color: #212121;
+    background-color: #3b3939;
 }
 
 .sidebar-content {
     display: flex;
-    flex-direction: column;
-    height: 90%;
-    margin-bottom: 2rem;
+    flex-direction: row;
+    width: 100%;
 }
 
 .menu-title-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0px;
-    padding: 0px;
+    align-items: center;
+    margin-left: 2rem;
 }
 
 .page-title {
-    color: #678fcf;
+    color: #819fe0;
 }
 
 .menu-button {
@@ -46,22 +42,36 @@ body {
 
 .sidebar-menu {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 .sidebar-menu-items {
     display: flex;
-    flex-direction: column;
-    list-style-type: none;
+    flex-direction: row;
 }
 
-.sidebar-widget-list-wrapper {
-    flex: 1;
-    align-self: flex-end;
-    min-height: 15rem;
-    min-width: 98%;
-    border: 1px solid white;
-    margin-top: 2rem;
+.sidebar-menu-items > div {
+    margin: 0 1rem;
+    color: #819fe0;
+}
+
+.nav-welcome-message {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.nav-menu-button {
+    width: 1.8rem;
+    filter: invert(99%) sepia(3%) saturate(1233%) hue-rotate(241deg) brightness(114%) contrast(80%);
+}
+
+.profile-image-small {
+    max-width: 1.8rem;
+    max-height: 1.8rem;
+    border-radius: 180px;
 }
 
 /* SIDEBAR */
@@ -72,11 +82,18 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 2rem;
+    height: 100vh;
     width: 100%;
 }
 
+.widget-pane-sidestrip {
+    width: 2rem;
+    background-color: #3b3939;
+}
+
+
 .widget {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     min-width: 30%;
