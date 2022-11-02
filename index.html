@@ -3,7 +3,9 @@
     <head>
         <title>Dash</title>
         <link rel="stylesheet"
-              href="style/main.css">
+              href="style/style.css">
+        <link rel="stylesheet"
+              href="style/layout.css">
         <meta charset="UTF-8">
 
     </head>
@@ -44,22 +46,27 @@
             <div class="widget-wrapper">
                 <div class="widget-pane-sidestrip">
                 </div>
-                <div class="widget widget-1">
+                <div class="widget wdgt-clock">
                     <div class="widget-title">
-                        <h3><span>Date & time</span></h3>
+                        Clock
+                    </div>
 
-                        <div id="dateDisplay" class="dateDisplay"></div>
-                        <div id="timeDisplay" class="timeDisplay"></div>
+                    <div class="widget-content">
+                        <div class="widget-sidestrip"></div>
+                        <div class="wdgt-clock-content">
+                            <div id="dateDisplay" class="dateDisplay"></div>
+                            <div id="timeDisplay" class="timeDisplay"></div>
+                        </div>
                     </div>
                 </div>
-                <div class="widget widget-2">
+                <div class="widget wdgt-timer">
                     <div class="widget-title">
-                        <h3><span>Timer</span></h3>
+                        Timer
                     </div>
                 </div>
-                <div class="widget widget-3">
+                <div class="widget wdgt-weather">
                     <div class="widget-title">
-                        <h3><span>Weather</span></h3>
+                        Weather
                     </div>
                 </div>
             </div>
