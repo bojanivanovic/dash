@@ -1,0 +1,29 @@
+{
+  "name": "dash",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {},
+  "description": "A simple dashboard in vanilla HTML/CSS/JS to remind myself how to do vanilla stuff",
+  "version": "1.0.0",
+  "main": "script/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bojanivanovic/dash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bojanivanovic/dash/issues"
+  },
+  "homepage": "https://github.com/bojanivanovic/dash#readme",
+  "devDependencies": {
+    "uuid": "^9.0.0"
+  },
+  "dependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
