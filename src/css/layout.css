@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAV */
+
+.sidebar {
+    height: 5rem;
+    width: 100%;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.menu-title-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.sidebar-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+.sidebar-menu-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar-menu-items > div {
+    margin: 0 1rem;
+}
+
+.nav-welcome-message {
+    font-size: 1.2rem;
+}
+
+.nav-menu-button {
+    width: 1.8rem;
+}
+
+.profile-image-small {
+    max-width: 1.8rem;
+    max-height: 1.8rem;
+    border-radius: 180px;
+}
+
+/* NAV */
+
+/* WIDGET PANE */
+
+.widget-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 100%;
+}
+
+.widget-pane-sidestrip {
+    width: 2rem;
+}
+
+.widget {
+    margin: 2rem 0 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.widget-title {
+    padding-bottom: 1rem;
+    height: 2rem;
+    font-size: 2rem;
+    width: 165px;
+    padding-left: 1.5rem;
+}
+
+.widget-sidestrip {
+    width: 1rem;
+    height: 100%;
+}
+
+.widget-content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+/* WIDGETS */
+
+/* CLOCK WIDGET */
+
+.wdgt-clock {
+    height: 20rem;
+    width: 20rem;
+}
+
+.wdgt-clock-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.dateDisplay {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.timeDisplay {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+
+}
+
+/* CLOCK WIDGET */
+
+/* TIMER WIDGET */
+
+.wdgt-timer {
+    height: 20rem;
+    width: 40rem;
+}
+
+/* TIMER WIDGET */
+
+/* WEATHER WIDGET */
+
+.wdgt-weather {
+    height: 20rem;
+    width: 40rem;
+}
+
+/* WEATHER WIDGET */
+
+/* WIDGETS */
+
+/* WIDGET PANE */
