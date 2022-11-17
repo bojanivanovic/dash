@@ -96,7 +96,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/style.css */ \"./src/css/style.css\");\n/* harmony import */ var _css_layout_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/layout.css */ \"./src/css/layout.css\");\n/* harmony import */ var _res_profile_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./res/profile.jpg */ \"./src/res/profile.jpg\");\n/* harmony import */ var _res_home_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./res/home-svgrepo-com.svg */ \"./src/res/home-svgrepo-com.svg\");\n/* harmony import */ var _res_board_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./res/board-svgrepo-com.svg */ \"./src/res/board-svgrepo-com.svg\");\n/* harmony import */ var _res_settings_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./res/settings-svgrepo-com.svg */ \"./src/res/settings-svgrepo-com.svg\");\n/* harmony import */ var _widgets_clock_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./widgets/clock.js */ \"./src/widgets/clock.js\");\n/* harmony import */ var _widgets_timer_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./widgets/timer.js */ \"./src/widgets/timer.js\");\n// style\n\n // assets\n\n\n\n\n // js\n\n\n\nvar profileImg = document.getElementById('nav-profile-link');\nprofileImg.src = _res_profile_jpg__WEBPACK_IMPORTED_MODULE_2__;\nvar homeImg = document.getElementById('nav-home-link');\nhomeImg.src = _res_home_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_3__;\nvar boardsImg = document.getElementById('nav-boards-link');\nboardsImg.src = _res_board_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_4__;\nvar settingsImg = document.getElementById('nav-settings-link');\nsettingsImg.src = _res_settings_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_5__;\n_widgets_clock_js__WEBPACK_IMPORTED_MODULE_6__.setDate();\n_widgets_clock_js__WEBPACK_IMPORTED_MODULE_6__.updateClock();\nconsole.log(_widgets_timer_js__WEBPACK_IMPORTED_MODULE_7__.tsk);\nconsole.log(document);\n\n//# sourceURL=webpack://my-webpack-project/./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/style.css */ \"./src/css/style.css\");\n/* harmony import */ var _css_layout_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/layout.css */ \"./src/css/layout.css\");\n/* harmony import */ var _res_profile_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./res/profile.jpg */ \"./src/res/profile.jpg\");\n/* harmony import */ var _res_home_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./res/home-svgrepo-com.svg */ \"./src/res/home-svgrepo-com.svg\");\n/* harmony import */ var _res_board_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./res/board-svgrepo-com.svg */ \"./src/res/board-svgrepo-com.svg\");\n/* harmony import */ var _res_settings_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./res/settings-svgrepo-com.svg */ \"./src/res/settings-svgrepo-com.svg\");\n/* harmony import */ var _widgets_clock_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./widgets/clock.js */ \"./src/widgets/clock.js\");\n/* harmony import */ var _widgets_timer_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./widgets/timer.js */ \"./src/widgets/timer.js\");\n// style\n\n // assets\n\n\n\n\n // js\n\n\n\n_widgets_clock_js__WEBPACK_IMPORTED_MODULE_6__.setDate();\n_widgets_clock_js__WEBPACK_IMPORTED_MODULE_6__.updateClock();\nconsole.log(_widgets_timer_js__WEBPACK_IMPORTED_MODULE_7__.tsk);\n\n//# sourceURL=webpack://my-webpack-project/./src/main.js?");
 
 /***/ }),
 
@@ -226,7 +226,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \***************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"8aff9e68eb621cd368b0.svg\";\n\n//# sourceURL=webpack://my-webpack-project/./src/res/board-svgrepo-com.svg?");
+eval("module.exports = __webpack_require__.p + \"assets/board-svgrepo-com.svg\";\n\n//# sourceURL=webpack://my-webpack-project/./src/res/board-svgrepo-com.svg?");
 
 /***/ }),
 
@@ -236,7 +236,7 @@ eval("module.exports = __webpack_require__.p + \"8aff9e68eb621cd368b0.svg\";\n\n
   \**************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"eb8734f568d159819859.svg\";\n\n//# sourceURL=webpack://my-webpack-project/./src/res/home-svgrepo-com.svg?");
+eval("module.exports = __webpack_require__.p + \"assets/home-svgrepo-com.svg\";\n\n//# sourceURL=webpack://my-webpack-project/./src/res/home-svgrepo-com.svg?");
 
 /***/ }),
 
@@ -246,7 +246,7 @@ eval("module.exports = __webpack_require__.p + \"eb8734f568d159819859.svg\";\n\n
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"5a5d8dad394d66a4a2ad.jpg\";\n\n//# sourceURL=webpack://my-webpack-project/./src/res/profile.jpg?");
+eval("module.exports = __webpack_require__.p + \"assets/profile.jpg\";\n\n//# sourceURL=webpack://my-webpack-project/./src/res/profile.jpg?");
 
 /***/ }),
 
@@ -256,7 +256,7 @@ eval("module.exports = __webpack_require__.p + \"5a5d8dad394d66a4a2ad.jpg\";\n\n
   \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"687029fd0e58e917a97c.svg\";\n\n//# sourceURL=webpack://my-webpack-project/./src/res/settings-svgrepo-com.svg?");
+eval("module.exports = __webpack_require__.p + \"assets/settings-svgrepo-com.svg\";\n\n//# sourceURL=webpack://my-webpack-project/./src/res/settings-svgrepo-com.svg?");
 
 /***/ })
 

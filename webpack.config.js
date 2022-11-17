@@ -13,6 +13,7 @@ const config = {
     entry: './src/main.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
+        assetModuleFilename: 'assets/[name][ext]',
     },
     plugins: [
         // Add your plugins here
